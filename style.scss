@@ -1,0 +1,28 @@
+// Variables
+
+$bodycolor: #202026;
+$textcolor: #a46496;
+$linkcolor: #cb9902;
+
+$wrapper-width: 980px;
+
+
+
+
+body{
+	background:$bodycolor;
+	color:$textcolor;
+}
+
+a{
+	color:$linkcolor;
+	text-decoration:none;
+}
+
+#wrapper{
+	width:$wrapper-width;
+	max-width:100%;
+	text-align:center;
+	padding-top:120px;
+	margin:0 auto;
+}
